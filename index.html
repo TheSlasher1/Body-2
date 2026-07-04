@@ -301,7 +301,7 @@ let bodyGroup = null;
 const interactiveMeshes = [];
 const regionLabels = {};
 
-loader.load('./model.glb', (gltf) => {
+loader.load('./Model.glb', (gltf) => {
   bodyGroup = new THREE.Group();
   
   gltf.scene.traverse((child) => {
