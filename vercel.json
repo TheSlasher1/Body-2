@@ -1,0 +1,10 @@
+{
+  "buildCommand": "echo 'no build needed'",
+  "outputDirectory": ".",
+  "routes": [
+    {
+      "src": "/(.*)",
+      "dest": "/index.html"
+    }
+  ]
+}
